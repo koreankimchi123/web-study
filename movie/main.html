@@ -167,7 +167,7 @@
                           <img src="https://image.tmdb.org/t/p/w500${movie_list[i].poster_path}" class="card-img-top" alt="...">
                           <div class="card-body">
                             <h5 class="card-title">${movie_list[i].original_title}</h5>
-                            <button type="button" class="btn btn-success" id="review-button" onclick="review()">리뷰보기</button>
+                            <button type="button" class="btn btn-success" id="review-button" onclick="review(${movie_list[i].id})">리뷰보기</button>
                           </div>
                         </div>
                       </div>`
